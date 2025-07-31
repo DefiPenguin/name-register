@@ -1,0 +1,113 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.form-container
+{
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1
+{
+    text-align: center;
+}
+
+.form-group
+{
+    margin-bottom: 20px;
+}
+
+label
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"]
+{
+    
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+button[type="submit"], #listBtn
+{
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    margin-left: 25%;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, #listBtn:hover
+{
+    background-color: #3ebe40;
+}
+
+#userList
+{
+    margin-top: 20px;
+}
+
+.userItem
+{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.deleteBtn
+{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.deleteBtn:hover
+{
+    background-color: #bd2130;
+}
+
+.editBtn
+{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.editBtn:hover
+{
+    background-color: #3ebe40;
+}
+
+.hidden
+{
+    display: none;
+}
